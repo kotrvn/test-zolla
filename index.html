@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- Template Basic Images Start -->
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+  <!-- Template Basic Images End -->
+  
+  <!-- Custom Browsers Color Start -->
+  <meta name="theme-color" content="#000">
+  <!-- Custom Browsers Color End -->
+  <title>Zolla-test section</title>
+
+  <!-- style -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <section id="slider" class="slider">
+    <div class="slider__bg-img">
+      <div class="overlay"></div>
+    </div>
+    <div class="slider__wrapper">
+      <div class="slider__left-col">
+        <div id="mainTrack" class="slider__track">
+          <div class="slider__item" data-toggle="modal" data-target="#work1">
+            <img class="slider__img" src="img/object_1.jpg" alt="object__1">
+            <span class="slider__description">Лисий Нос</span>
+          </div>
+          <div class="slider__item">
+            <img class="slider__img" src="img/thumb2.jpg" alt="object__1">
+            <span class="slider__description">пр. Маршала Блюхера</span>
+          </div>
+          <div class="slider__item">
+            <img class="slider__img" src="img/thumb3.jpg" alt="object__1">
+            <span class="slider__description">ул. Долгоозерная</span>
+          </div>
+        </div>
+      </div>
+      <div class="slider__right-col">
+        <p class="slider__text animated fadeIn">Нами завершено более 360 ремонтов
+        <span class="slider__subtext animated fadeIn">Посмотрите некоторые из них, чтобы оценить
+         качество нашей работы</span>
+        </p>
+      </div>
+    </div>
+    <div class="slider__footer">
+      <div id="thumb" class="slider__thumbnails thumbnails">
+        <div class="thumbnails__item" style="animation-delay:.8s">
+          <img src="img/thumb1.jpg" alt="" class="thumbnails__img">
+          <span class="thumbnails__descr">Лисий Нос</span>
+        </div>
+        <div class="thumbnails__item" style="animation-delay:1s">
+          <img src="img/thumb2.jpg" alt="" class="thumbnails__img">
+          <span class="thumbnails__descr">пр. Маршала Блюхера</span>
+        </div>
+        <div class="thumbnails__item" style="animation-delay:1.2s">
+          <img src="img/thumb3.jpg" alt="" class="thumbnails__img">
+          <span class="thumbnails__descr">ул. Долгоозерная</span>
+        </div>
+      </div>
+      <a href="#" class="slider__link">больше наших ремонтов</a>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Лисий нос</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-galary">
+            <div class="modal-galary__item">
+              <img src="img/object_1.jpg" alt="">
+            </div>
+            <div class="modal-galary__item">
+              <img src="img/object_1.jpg" alt="">
+            </div>
+            <div class="modal-galary__item">
+              <img src="img/object_1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
